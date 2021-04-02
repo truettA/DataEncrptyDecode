@@ -1,0 +1,14 @@
+//
+// Created by 汤汤 on 2021/4/2.
+//
+
+#ifndef DATAENCRPTYDECODE_REQUSETFACTORY_H
+#define DATAENCRPTYDECODE_REQUSETFACTORY_H
+
+
+class RequsetFactory {
+
+};
+
+
+#endif //DATAENCRPTYDECODE_REQUSETFACTORY_H
