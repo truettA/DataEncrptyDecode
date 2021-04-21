@@ -11,10 +11,14 @@ public:
     TcpServer();
     ~TcpServer();
 public:
+    //设置监听端口
     int setListen(unsigned short port);
+    //建立连接
     TcpSocket* acceptConn(int timeout = 1000);
+    //关闭连接
     void closeFd();
 private:
+    //connet 返回文件描述符号
     int m_lfd;
 };
 
